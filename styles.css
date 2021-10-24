@@ -1,11 +1,15 @@
 /* Add your CSS to this file */
+
+
+
+
 main{
     justify-content: center;
 }
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
 }
 body > section{
@@ -95,6 +99,7 @@ a:hover{
 .card{
     width: 400px;
     padding: 8px;
+    border-radius: 5px;
 
 }
 .cards > div{

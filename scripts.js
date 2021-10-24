@@ -19,7 +19,7 @@ myButton.addEventListener("click",(event)=>{
 	
 	if(inputVal.length>0){
 		console.log('if statemts keemo yen')
-		var response1 = document.createTextNode("The email " +inputVal+" registered");
+		var response1 = document.createTextNode("Thank you! your email " +inputVal+" has been added to our mailing list");
 		console.log(response1);
 		var paragraph = document.createElement("p");
 		paragraph.appendChild(response1);
